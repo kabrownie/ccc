@@ -493,68 +493,20 @@
                </div>
               </div>
             
-         
-         <div class="row">
-           
-           <div class="col-md-6">   
-                 
-               <div class="row">
-                  <form>
-                    
-					  <div class="col-sm-6">
-						<div class="form-group">
-						  <input type="text" id="name" class="form-control" placeholder="Your Name">
-						 </div>
-                        </div>
-								
-                       <div class="col-sm-6">
-					    <div class="form-group">
-						 <input type="email" id="email" class="form-control" placeholder="Your Email">
-						 </div>
-                        </div>
-                        
-                    
-                        <div class="col-sm-6">
-						  <div class="form-group">
-							<input type="text" id="address" class="form-control" placeholder="Where are You From?">
-						   </div>
-                          </div>
-								
-                         <div class="col-sm-12">
-						  <select id="subject" class="form-group form-control">
-							<option value="" selected disabled>Subject</option>
-							<option>I need Catering services</option>
-							<option>I need an event planning and management service</option>
-							<option>I have question about tekla events</option>
-                         
-							<option>I Want to General Talk</option>
-                            <option>Other</option>
-						   </select>
-                          </div>
-								
-                       <div class="col-sm-12">
-					    <div class="textarea-message form-group">
-					      <textarea id="message" class="textarea-message form-control" placeholder="Your Message" rows="5"></textarea>
-						  </div>
-                         </div>
-                   
-                   
-                    <div class="text-center">      
-		   <button type="submit" class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right text-center">Submit</button>
-	                  </div>
-                       
-                  </form>
-                   
-				</div>
-               </div>
-            
-            
-           
-           
-        
-        </div>
-       </div>
-       
+              <div class="formcarry-container">
+                <form action="index.html" method="post" class="formcarry-form">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="fullName" required />
+          
+                  <label for="email">Your Email Address</label>
+                  <input type="email" id="email" name="email" required />
+          
+                  <label for="message">Your Message</label>
+                  <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          
+                  <button type="submit">Send</button>
+                </form>
+      
       <div class="margin-top-80"> 
        <ul class="social-icon">
          <li><a href="#" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -565,16 +517,32 @@
        </ul>
       </div>
        
+
+      
      </section>
      <!-- Contact End -->
        
         
-        
-        
-    <!-- Footer Start -->
+     <!-- Footer Start -->
     <footer class="footer-section">
         <div class="container">
             <div class="row">
+               
+      <div class="col-md-4 text-left">
+       <p><span><a href="#about" class="smoth-scroll">About</a></span> | <span><a href="#portfolio" class="smoth-scroll">Portfolio</a></span></p>
+          </div>
+               
+            <div class="col-md-4 text-center">
+               <p>© Copyright Tekla Events.</p>
+               </div>
+              
+            
+                
+             </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    
                
       <div class="col-md-4 text-left">
        <p><span><a href="#about" class="smoth-scroll">About</a></span> | <span><a href="#portfolio" class="smoth-scroll">Portfolio</a></span></p>
